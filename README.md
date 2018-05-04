@@ -20,12 +20,15 @@ straightforward. These classes are contained in the telegram.ext submodule.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/python-telegram-bot-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-telegram-bot-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/python-telegram-bot-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/python-telegram-bot-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-telegram-bot/badges/version.svg)](https://anaconda.org/conda-forge/python-telegram-bot)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-telegram-bot/badges/downloads.svg)](https://anaconda.org/conda-forge/python-telegram-bot)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python--telegram--bot-green.svg)](https://anaconda.org/conda-forge/python-telegram-bot) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-telegram-bot.svg)](https://anaconda.org/conda-forge/python-telegram-bot) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-telegram-bot.svg)](https://anaconda.org/conda-forge/python-telegram-bot) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-telegram-bot.svg)](https://anaconda.org/conda-forge/python-telegram-bot) |
 
 Installing python-telegram-bot
 ==============================
