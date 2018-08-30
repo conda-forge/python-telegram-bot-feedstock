@@ -24,6 +24,7 @@ requirements:
     - python
     - certifi
     - future >=0.16
+    - cryptography
     # Optional:
     - ujson
     - pysocks
