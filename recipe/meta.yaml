@@ -1,6 +1,6 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "12.1.0" %}
-{% set sha256 = "7319de07afd5e9f64e408a7c85eaa74945270bb55593150db9d404854c065928" %}
+{% set version = "12.1.1" %}
+{% set sha256 = "c7c56ea3bf9874e39397633a35478b9bed44ba35db49cfd3ce97d331edef82a9" %}
 
 package:
   name: {{ name|lower }}
