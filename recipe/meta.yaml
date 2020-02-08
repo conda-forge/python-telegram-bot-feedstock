@@ -26,6 +26,7 @@ requirements:
     - future >=0.16
     - tornado >=5.1
     - cryptography
+    - decorator >=4.4.0
     # Optional:
     - ujson
     - pysocks
