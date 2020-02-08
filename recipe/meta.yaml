@@ -1,6 +1,6 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "12.3.0" %}
-{% set sha256 = "41608512a3025a04ff7472efcaae344ad7533a77ae207685bb10fc2fc8282f7b" %}
+{% set version = "12.4.1" %}
+{% set sha256 = "f18a79e95c58add33fea9962fa027c580cf3bec01e3cd638930cc0baedc0c7a3" %}
 
 package:
   name: {{ name|lower }}
@@ -26,6 +26,7 @@ requirements:
     - future >=0.16
     - tornado >=5.1
     - cryptography
+    - decorator >=4.4.0
     # Optional:
     - ujson
     - pysocks
