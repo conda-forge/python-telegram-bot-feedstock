@@ -1,6 +1,6 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "12.4.2" %}
-{% set sha256 = "0a97cbca638f949582b4ee326170d2f8d7f4bf559a4e511132bb2203623e04ad" %}
+{% set version = "12.5.1" %}
+{% set sha256 = "6d69fb04dc8d83e01cb25a0d83aaa2a1a4b7d5b14cd38b9f8922a567b4a4a510" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   build:
@@ -42,7 +42,7 @@ about:
   license: LGPL-3.0
   license_family: GPL
   license_file: LICENSE.lesser
-  summary: 'A pure Python interface for the Telegram Bot API.'
+  summary: A pure Python interface for the Telegram Bot API.
 
   description: |
     This library provides a pure Python interface for the Telegram Bot API.
