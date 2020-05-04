@@ -1,6 +1,6 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "12.5.1" %}
-{% set sha256 = "6d69fb04dc8d83e01cb25a0d83aaa2a1a4b7d5b14cd38b9f8922a567b4a4a510" %}
+{% set version = "12.7" %}
+{% set sha256 = "218b0583afb8baeefe6f2f1ddd8f1bb1ae30f0af3ce9160a372abd2cdf258eef" %}
 
 package:
   name: {{ name|lower }}
@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/python-telegram-bot/python-telegram-bot
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: GPL
   license_file: LICENSE.lesser
   summary: A pure Python interface for the Telegram Bot API.
