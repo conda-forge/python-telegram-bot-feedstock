@@ -3,7 +3,7 @@ About python-telegram-bot
 
 Home: https://github.com/python-telegram-bot/python-telegram-bot
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-only
 
 Feedstock license: BSD 3-Clause
 
