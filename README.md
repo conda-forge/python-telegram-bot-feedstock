@@ -5,9 +5,13 @@ Home: https://github.com/python-telegram-bot/python-telegram-bot
 
 Package license: LGPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-telegram-bot-feedstock/blob/master/LICENSE.txt)
 
 Summary: A pure Python interface for the Telegram Bot API.
+
+Development: https://github.com/python-telegram-bot/python-telegram-bot
+
+Documentation: https://python-telegram-bot.readthedocs.io/en/stable/
 
 This library provides a pure Python interface for the Telegram Bot API.
 It's compatible with Python versions 2.7, 3.3+ and PyPy. It also works
