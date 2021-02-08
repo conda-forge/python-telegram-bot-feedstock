@@ -25,7 +25,6 @@ requirements:
     - certifi
     - tornado >=5.1
     - cryptography
-    - decorator >=4.4.0
     - apscheduler =3.6.3
     - pytz >=2018.6
     # Optional:
