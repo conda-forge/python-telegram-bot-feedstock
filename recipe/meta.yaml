@@ -23,9 +23,10 @@ requirements:
   run:
     - python >=3.6
     - certifi
-    - tornado >=5.1
+    - tornado >=6.1
     - cryptography
     - apscheduler =3.6.3
+    - cachetools =4.2.2
     - pytz >=2018.6
     # Optional:
     - ujson
