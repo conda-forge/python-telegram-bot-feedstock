@@ -1,6 +1,6 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "13.5" %}
-{% set sha256 = "83dbf4cd46327fd818bb6655f2508024a0ade68ebdb3544da35c469adc23bddb" %}
+{% set version = "13.6" %}
+{% set sha256 = "37cfe8faba16fb68a8b5ab41a10e787c385f6296200c84256cc54d7c16334643" %}
 
 package:
   name: {{ name|lower }}
@@ -23,9 +23,10 @@ requirements:
   run:
     - python >=3.6
     - certifi
-    - tornado >=5.1
+    - tornado >=6.1
     - cryptography
     - apscheduler =3.6.3
+    - cachetools =4.2.2
     - pytz >=2018.6
     # Optional:
     - ujson
