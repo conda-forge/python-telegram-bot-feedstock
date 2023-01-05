@@ -1,6 +1,6 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "13.15" %}
-{% set sha256 = "b4047606b8081b62bbd6aa361f7ca1efe87fa8f1881ec9d932d35844bf57a154" %}
+{% set version = "20.0" %}
+{% set sha256 = "9ff3d7b03d0e621df6c903622338e30d761e121c27179e13f62ba2216b7c6d32" %}
 
 package:
   name: {{ name|lower }}
@@ -27,7 +27,6 @@ requirements:
 test:
   imports:
     - telegram
-    - telegram.base
 
 about:
   home: https://github.com/python-telegram-bot/python-telegram-bot
