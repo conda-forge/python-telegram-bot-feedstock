@@ -1,20 +1,18 @@
 {% set name = "python-telegram-bot" %}
 {% set version = "13.15" %}
-{% set sha256 = "b4047606b8081b62bbd6aa361f7ca1efe87fa8f1881ec9d932d35844bf57a154" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-telegram-bot-{{ version }}.tar.gz
+  sha256: b4047606b8081b62bbd6aa361f7ca1efe87fa8f1881ec9d932d35844bf57a154
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 1
 
 requirements:
   host:
@@ -22,12 +20,20 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - httpx >=0.23.1,<0.24
+    - certifi
+    - tornado 6.1
+    - apscheduler 3.6.3
+    - pytz >=2018.6
+    - cachetools 4.2.2
 
 test:
   imports:
     - telegram
     - telegram.base
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/python-telegram-bot/python-telegram-bot

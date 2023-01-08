@@ -11,14 +11,11 @@ Summary: A pure Python interface for the Telegram Bot API.
 
 Development: https://github.com/python-telegram-bot/python-telegram-bot
 
-Documentation: https://python-telegram-bot.readthedocs.io/en/stable/
-
-This library provides a pure Python interface for the Telegram Bot API.
-It's compatible with Python versions 2.7, 3.3+ and PyPy. It also works
-with Google App Engine.
-In addition to the pure API implementation, this library features a number
-of high-level classes to make the development of bots easy and
-straightforward. These classes are contained in the telegram.ext submodule.
+This library provides a pure Python, asynchronous interface for the Telegram
+Bot API. It's compatible with Python versions 3.7+.
+In addition to the pure API implementation, this library features a number of
+high-level classes to make the development of bots easy and straightforward.
+These classes are contained in the telegram.ext submodule.  doc_url: https://python-telegram-bot.readthedocs.io/en/stable/
 
 
 Current build status
