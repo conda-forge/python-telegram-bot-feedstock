@@ -153,4 +153,5 @@ Feedstock Maintainers
 =====================
 
 * [@mdraw](https://github.com/mdraw/)
+* [@xylar](https://github.com/xylar/)
 
