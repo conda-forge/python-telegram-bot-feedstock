@@ -1,5 +1,5 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "20.2" %}
+{% set version = "20.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-telegram-bot-{{ version }}.tar.gz
-  sha256: d0aa53e1f06d7cb7919cc0e2d6c81a02d968fc29921aeaa962edd1efb816a9bd
+  sha256: 73e46a534be9d1c790ce8b494765cca18a5c2f3f5b4932d83bcb06bb0051eb4a
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - httpx >=0.23.3,<0.24.dev0
+    - httpx >=0.24.0,<0.25.0
 
 test:
   imports:
