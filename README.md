@@ -3,11 +3,11 @@ About python-telegram-bot-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-telegram-bot-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/python-telegram-bot/python-telegram-bot
+Home: https://python-telegram-bot.org/
 
-Package license: LGPL-3.0-only
+Package license: LGPL-3.0-only AND GPL-3.0-only
 
-Summary: A pure Python interface for the Telegram Bot API.
+Summary: We have made you a wrapper you can't refuse
 
 Development: https://github.com/python-telegram-bot/python-telegram-bot
 
