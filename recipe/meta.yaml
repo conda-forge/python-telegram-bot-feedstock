@@ -1,5 +1,5 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "20.3" %}
+{% set version = "20.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-telegram-bot-{{ version }}.tar.gz
-  sha256: 73e46a534be9d1c790ce8b494765cca18a5c2f3f5b4932d83bcb06bb0051eb4a
+  sha256: a6ac3f9c9674aaf7d1c7e652d8b75cde969fb872f75e9521b8516eceaba82b1b
 
 build:
   noarch: python
@@ -16,23 +16,25 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
-    - httpx >=0.24.0,<0.25.0
+    - python >=3.8
+    - httpx >=0.24.1,<0.25.dev0
 
 test:
   imports:
     - telegram
 
 about:
-  home: https://github.com/python-telegram-bot/python-telegram-bot
-  license: LGPL-3.0-only
+  home: https://python-telegram-bot.org/
+  license: LGPL-3.0-only AND GPL-3.0-only
   license_family: GPL
-  license_file: LICENSE.lesser
-  summary: A pure Python interface for the Telegram Bot API.
-
+  license_file:
+    - LICENSE
+    - LICENSE.dual
+    - LICENSE.lesser
+  summary: We have made you a wrapper you can't refuse
   description: |
     This library provides a pure Python, asynchronous interface for the Telegram
     Bot API. It's compatible with Python versions 3.7+.
