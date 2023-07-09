@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://python-telegram-bot.org/
-  license: LGPL-3.0-only AND GPL-3.0
+  license: LGPL-3.0-only AND GPL-3.0-only
   license_family: GPL
   license_file:
     - LICENSE
