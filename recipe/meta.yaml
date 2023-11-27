@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - httpx >=0.25.0,<0.26.dev0
+    - httpx >=0.25.2,<0.26.dev0
 
 test:
   imports:
