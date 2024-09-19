@@ -1,5 +1,5 @@
 {% set name = "python-telegram-bot" %}
-{% set version = "21.5" %}
+{% set version = "21.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2d679173072cce8d6b49aac2e438d49dbfc01c1a4ef5658828c2a65951ee830b
+  sha256: 8b2b37836c3ff9c2924e990474a1c4731df21b1668acebff5099f475666426c6
 
 build:
   noarch: python
