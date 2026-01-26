@@ -32,13 +32,8 @@ tests:
   - python:
       imports:
         - telegram
+      pip_check: true
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
-        - pip
-    script:
-      - pip check
 
 about:
   license: LGPL-3.0-only AND GPL-3.0-only
