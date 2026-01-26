@@ -17,7 +17,6 @@ In addition to the pure API implementation, this library features a number of
 high-level classes to make the development of bots easy and straightforward.
 These classes are contained in the telegram.ext submodule.  doc_url: https://python-telegram-bot.readthedocs.io/en/stable/
 
-
 Current build status
 ====================
 
