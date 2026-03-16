@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-telegram-bot
-  version: 22.6
+  version: '22.7'
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 50ae8cc10f8dff01445628687951020721f37956966b92a91df4c1bf2d113742
+  sha256: 784b59ea3852fe4616ad63b4a0264c755637f5d725e87755ecdee28300febf61
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
@@ -25,9 +25,6 @@ requirements:
   run:
     - python >=${{ python_min }}
     - httpx >=0.27,<0.29
-    # for py >=3.14 but want to stay noarch: python
-    - httpcore >=1.0.9
-
 tests:
   - python:
       imports:
