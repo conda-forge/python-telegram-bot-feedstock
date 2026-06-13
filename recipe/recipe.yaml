@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-telegram-bot
-  version: '22.7'
+  version: "22.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 784b59ea3852fe4616ad63b4a0264c755637f5d725e87755ecdee28300febf61
+  sha256: f9d3847fcb23ee603477e442800b33bb4adf851a73e0619d2050be879decf1ef
 
 build:
   number: 0
